@@ -62,14 +62,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f6c3d9;
+  background-color: #0B1026;
   z-index: 9999;
 }
 
 #loader {
   border: 10px solid #ffffff;
   border-radius: 50%;
-  border-top: 10px solid #f192ad;
+  border-top: 10px solid #3a4c7a;
   width: 80px;
   height: 80px;
   animation: spin 2s linear infinite;
@@ -85,33 +85,33 @@
 }
 
 @font-face {
-  font-family: 'Minecraft';
-  src: url(../fonts/Minecraftchmc-dBlX.ttf);
+  font-family: 'SpaceGrotesk-Medium';
+  src: url(../fonts/SpaceGrotesk-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Friend';
-  src: url(../fonts/Friend.otf);
+  font-family: 'Orbitron';
+  src: url(../fonts/Orbitron-Medium.ttf);
 }
 
 @font-face {
-  font-family: 'Minecraftia';
-  src: url(../fonts/Minecraftia-Regular.ttf);
+  font-family: 'space-grotesk';
+  src: url(../fonts/SpaceGrotesk-Medium.ttf);
 }
 
 body {
-  font-family: "Minecraftia";
-  color: #190217;
-  background-color: #190217;
+  font-family: "Orbitron", sans-serif;
+  color: #040c24;
+  background-color: #040c24;
 }
 
 a {
-  color: #F4455A;
+  color: #9da5bd;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F4455A;
+  color: #9da5bd;
   text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Minecraftia";
+  font-family: "Orbitron", sans-serif;
 }
 
 
@@ -135,7 +135,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #F4455A;
+  background: #3a4c7a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -149,7 +149,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f4c7e6;
+  background: #0a205a;
   color: #fff;
 }
 
@@ -187,29 +187,31 @@ h6 {
 #hero .container {
   position: absolute;
   top: 70px; 
-  left: 100px;
+  left: 130px;
 }
 
 #hero .container img {
-  width: 200px; 
+  width: 220px; 
   height: auto; 
 }
 
 #hero .span {
   position: absolute;
   top: 65px;
-  right: 70px; 
-  width: 800px; 
-  padding: 20px; 
-  font-size: 18px;
+  right: 130px;
+  width: 800px;
+  padding: 20px;
+  font-size: 20px;
+
+  text-align: right;
 }
 
 #hero .typed {
-  color: #F77781;
+  color: #040c24;
 }
 
 #hero .im {
-  color: #FEEFE6;
+  color: #f2f5fc;
 }
 
 
@@ -283,7 +285,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #FEEFE6;
+  color: #9da5bd;
 }
 
 .section-title h2::before {
@@ -303,7 +305,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #F4455A;
+  background: #3a4c7a;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -319,14 +321,14 @@ section {
 
 
 .backtoportfolio {
-  color: blanchedalmond;
+  color: #f2f5fc;
   padding: 5px 70px; 
   margin: 10px; 
   display: inline-block; 
 }
 
 .backtoportfolio:hover {
-  color: #ff86a8; 
+  color: #9da5bd; 
 }
 
 @media screen and (max-width: 768px) {
@@ -390,12 +392,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 30px;
-  color: #190217;
+  color: #040c24;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #190217;
+  color: #040c24;
   font-size: 15px;
   text-transform: uppercase;
   padding: 0;
@@ -408,7 +410,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #190217;
+  color: #040c24;
   margin: 0 2px;
   font-size: 50px;
   display: inline-block;
@@ -416,7 +418,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #F4455A;
+  color: #040c24;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -452,14 +454,14 @@ section {
 .project-navigation a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #190217;
-  color: #fae8ce;
+  background-color: #040c24;
+  color: #f2f5fc;
   border-radius: 5px;
   margin: 0 10px;
 }
 
 .project-navigation a:hover {
-  color: #ff86a8; 
+  color: #040c24; 
 }
 
 .previous-project {
@@ -485,10 +487,10 @@ video {
 
 .custom-audio {
   
-  border: 1px solid #fce3c4;
+  border: 1px solid #f2f5fc;
   border-radius: 40px;
   padding: 10px;
-  background-color: #fce3c4;
+  background-color: #f2f5fc;
 }
 
 .image-item.illustrations img {
@@ -547,7 +549,7 @@ video {
 }
 
 .portfolio-details {
-  background-color: #190217;
+  background-color: #040c24;
 
 }
 
@@ -577,14 +579,14 @@ video {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #f2f5fc;
   opacity: 1;
-  border: 1px solid #190217;
+  border: 1px solid #040c24;
   margin: 0 8px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F4455A;
+  background-color: #040c24;
 }
 
 .portfolio-details .portfolio-info {
@@ -596,7 +598,7 @@ video {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #FEEFE6;
+  color: #f2f5fc;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
@@ -605,8 +607,8 @@ video {
   list-style: none;
   padding: 0;
   font-size: 22px;
-  color: #FEEFE6;
-  font-family: 'Friend';
+  color: #f2f5fc;
+  font-family: 'space-grotesk', sans-serif;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -621,14 +623,14 @@ video {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #f6ebde;
+  color: #f2f5fc;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: #f6ebde;
-  font-family: 'friend';
-  font-size: 25px;
+  color: #f2f5fc;
+  font-family: 'space-grotesk', sans-serif;
+  font-size: 22px;
 }
 
 .img-center {
@@ -647,7 +649,7 @@ video {
 
 #email p {
   font-size: 19px;
-  color: rgb(0, 0, 0);
+  color: #f2f5fc;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -656,12 +658,25 @@ video {
 }
 
 #email a {
-  color: #190217;
-  text-decoration: underline;
+  color: #f2f5fc;
+  display: inline-flex;
+  gap: 20px;
+  padding: 12px 18px;
+
+  background: rgba(10, 32, 90, 0.6);
+  border: 1px solid #3a4c7a;
+  border-radius: 999px;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  
 }
 
 #email a:hover {
-  color: #fefcf5; 
+  color: #9da5bd; 
+
 }
 
 /*--------------------------------------------------------------
@@ -669,14 +684,14 @@ video {
 --------------------------------------------------------------*/
 
 #thankyou {
-  color: #020002; 
+  color: #f2f5fc; 
   text-align: center;
   display: inline-block;  
 }
 
 #contact {
   text-align: center;
-  background-color: #FFB3CF; 
+  background-color: #3a4c7a; 
 }
 
 #thankyou {
@@ -686,8 +701,8 @@ video {
 
 
 #footer {
-  background: #FFB3CF;
-  color: #45505b;
+  background: #3a4c7a;
+  color: #f2f5fc;
   font-size: 14px;
   padding: 0;
   margin-left: auto; 
@@ -699,7 +714,7 @@ video {
   font-size: 36px;
   font-weight: 700;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "space-grotesk", sans-serif;
   margin: 0 0 15px 0;
 }
 
