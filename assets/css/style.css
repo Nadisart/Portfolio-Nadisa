@@ -766,3 +766,7 @@ margin-bottom: 20px;
     max-width: 100%;
   }
 }
+
+[data-aos] {
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
